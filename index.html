@@ -12,23 +12,19 @@
 		<!-- Wrapper -->
 			<div id="wrapper" class="fade-in">
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>Bertrand PATUREL</h1>
-						<p>My name is Bertrand PATUREL. Welcome on my Portfolio.</p>
-					 	<a href="https://www.linkedin.com/in/bertrand-paturel/" class="author"><img src="images/head.jpg" alt="" /></a>
-
-					</div>
-
-				<!-- Header -->
-					<header id="header">
-						<a href="http://ensta-paris.fr/" class="logo">Discover ENSTA Paris</a>
-					</header>
+			<!-- Header -->
+			<header id="header" class="alt">
+				<span class="myhead"><img src="images/head.jpg" alt="" /></span>
+				<h1>Bertrand PATUREL</h1>
+				<p>My name is Bertrand PATUREL. Welcome on my portfolio.</p>
+			</header>
 
 				<!-- Nav -->
 					<nav id="nav">
 						<ul class="links">
-							<li class="active"><a href="index.html">My codes at ENSTA Paris</a></li>
+							<li class="active"><a href="#major">About me</a></li>
+							<li class="active"><a href="#posts">My codes at ENSTA Paris</a></li>
+							<li class="active"><a href="#footer">Contact me</a></li>
 							<li><a href="personal.html">Personal Projects</a></li>
 						</ul>
 						<ul class="icons">
@@ -41,7 +37,7 @@
 					<div id="main">
 
 						<!-- Featured Post -->
-							<article class="post featured">
+							<article class="post featured" id='major'>
 								<header class="major">
 									<h2><a href="#">ABOUT ME</a></h2>
 									<p>I am a student in the French engineering school <a href="http://ensta-paris.fr/"> ENSTA Paris</a> located in Paris. I have learned through the courses many languages such as Python, R, Matlab or C.  I am specially interested in Data Science.</p>
@@ -53,14 +49,14 @@
 							</article>
 
 						<!-- Posts -->
-							<section class="posts">
+							<section class="posts" id='posts'>
 								<article>
 									<header>
 										<span class="date">May, 2020</span>
 										<h2><a href="#">Forecasting a house consumption</a></h2>
 									</header>
 									<a href="https://github.com/BertrandPaturel/Forecasting-house-consumption" class="image fit"><img src="images/House.jpg" alt="" /></a>
-									<p>Discover our predictions with Cyril #R #Kaggle</p>
+									<p>Can we forecast the consumption of the appliances in a house ? #R #Kaggle</p>
 									<ul class="actions special">
 										<li><a href="https://github.com/BertrandPaturel/Forecasting-house-consumption" class="button">Full Story</a></li>
 									</ul>
@@ -71,7 +67,7 @@
 										<h2><a>Analysis of the temperature in Paris</h2>
 									</header>
 									<a href="https://github.com/BertrandPaturel/Analysis-Temperature-Paris" class="image fit"><img src="images/Montsouris.png" alt="" /></a>
-									<p>This is our Analysis of the changement of temperature in Parc MONTSOURIS #R</p>
+									<p>See and predict the temperatures of Paris through data analysis. #R</p>
 									<ul class="actions special">
 										<li><a href="https://github.com/BertrandPaturel/Analysis-Temperature-Paris" class="button">Full Story</a></li>
 									</ul>
@@ -82,9 +78,9 @@
 										<h2><a href="#">Genetic Algorithm</a></h2>
 									</header>
 									<a href="#" class="image fit"><img src="images/Python.jpg" alt="" /></a>
-									<p>We have made a genetic algorithm to sort a long list #Python</p>
+									<p>How do we use genetics to improve our algorithm. #Python</p>
 									<ul class="actions special">
-										<li><a class="button">ask by mail</a></li>
+										<li><a href="#footer" class="button">ask by mail</a></li>
 									</ul>
 								</article>
 								<article>
@@ -93,7 +89,7 @@
 										<h2><a href="#">Importance Sampling</a></h2>
 									</header>
 									<a href="work/Echantillonage préférentiel.html" class="image fit"><img src="images/Sampling.png" alt="" /></a>
-									<p>Discover the work I have done with Omar on Importance Sampling #R</p>
+									<p>Check out our test with Omar to decide if there is a noticeable rise in temperature. #R</p>
 									<ul class="actions special">
 										<li><a href="work/Echantillonage préférentiel.html" class="button">Full Story</a></li>
 									</ul>
@@ -104,7 +100,7 @@
 										<h2><a href="#">Monte Carlo</a></h2>
 									</header>
 									<a href="work/Monte-Carlo.html" class="image fit"><img src="images/Casino.jpg" alt="" /></a>
-									<p>Discover the work I have done with Omar on Monte Carlo #R</p>
+									<p>What are your chances of winning the jackpot ? #R</p>
 									<ul class="actions special">
 										<li><a href="work/Monte-Carlo.html" class="button">Full Story</a></li>
 									</ul>
